@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Alexia Xaly">
+    <meta name="description" content="Un dia a la vez">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Alexia Xaly| Disfruta la vida</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/ALEXIA1.jpg">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/alexia2.jpg" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre Alexia Xaly</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Cosas que a Alexia Xaly le gustan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonios">Cosas que no le gustan a Alexia Xaly</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/ALEXIA1.jpg" alt="Foto de Alexia Xaly">
+        <h1>Hola, soy Alexia Xaly</h1>
+       <h2>Me encanta disfrutar de los moentos y hacer cosas que me hagan sentir feliz</h2> 
+        <!--Animación con JavaScript-->
+        <h2 class="text-primary mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/ALEXIA3.jpg" alt="Monitor, laptop y logos de HTML, CSS, JavaScript y React.">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Conoce sobre mi</h2>
+        <p class="seccion-texto">Me encanta pasar moemntos de calidad con mi familia, amigas y conmigo misma.</em></p>
+      </div>
+    </section>
+    <section id="video" class="videoprincipal">
+      <video src="imagenes/ALEXIA.mp4" width="250" height="300" text-aligen="" autoplay controls>Mis mascotas</video>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Importancia de las emociones</p>
+            <p>Las emociones son muy importantes en nuestra vida, porque reflejan nuestro mundo interno, y lo que interpretamos de lo que sucede a nuestro alrededor. 
+              <p>Asimismo, nos indican cómo estamos evaluando y juzgando las diferentes situaciones que vivimos.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Alegria</span>
+              <span class="badge text-bg-primary">Empatia</span>
+              <span class="badge text-bg-primary">Miedo</span>
+              <span class="badge text-bg-primary">Furia</span>
+            </div>
+          </div>
+          <!-- Articulos -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Amistad</p>
+            <p>Los amigos pueden ayudarte a celebrar los buenos momentos y apoyarte en los malos.
+               Los amigos pueden prevenir el aislamiento y la soledad y ofrecerte compañía si la necesitas.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Confianza</span>
+              <span class="badge text-bg-primary">Respeto</span>
+              <span class="badge text-bg-primary">Lealtad</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Familia</p>
+            <p>Contribuye a generar un entorno de seguridad, confianza, bienestar y,
+               sobre todo, hace posible que podamos comunicarnos e integrarnos.</p>
+
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Paz</span>
+              <span class="badge text-bg-primary">Felicidad</span>
+              <span class="badge text-bg-primary">Tranquilidad</span>
+              <span class="badge text-bg-primary">Amor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo texto-negro">Mis vivencias</h2>
+      <h3 class="seccion-descripcion">Aquí dejo alunas cosas que sucedieron...</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/ALEXIA4.jpg" alt="ALEXIA4">
+              <p>Este Mayo del 2023 me meti al gym, aunque fui muy pocas veces lo disfrute mucho y me hacia sentir bien.</p>
+              <div class="overlay">
+                <p>GYM...</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/ALEXIA5.jpg" alt="ALEXIA5">
+                            <p>En Febrero del 2023 me meti a un  curso de cejas 4K en el cual conoci 
+                              varias chicas que ma cayeron muy bien y la experiencia fue muy buena. </p>
+              <div class="overlay">
+                <p>Curso cejas 4k</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/ALEXIA6.jpg" alt="ALEXIA6">
+              <P> En Julio del 2023 me meti a un curso de extensiones de pestañas y me parecio una 
+                experiencia increible ya que es algo que me llama mucho la atencion</P>
+              <div class="overlay">
+                <p>Curso de extensiones de pestañas tecnica clasica</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/ALEXIA7.jpg" alt="ALEXIA7">
+              <P>El 9 de Octubre del 2023 perdi auna de mis mejores amigas, su muerte causo una herida muy grande en mi, 
+                pero aun asi trato de recordarla con mucho amor</P>
+              <div class="overlay">
+                <p>Sherlyn</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/ALEXIA8.jpg" alt="ALEXIA8">
+              <p>El 25 de Agosto fue mi cumpleaños y lo celebre con mi familia y mis mejores amigas</p>
+              <div class="overlay">
+                <p>Mis amigas</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 6 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/ALEXIA9.jpg" alt="ALEXIA9">
+              <P>Mis padres y mi sobrino son una de las piezas mas importantes en mi vida</P>
+              <div class="overlay">
+                <p>Mis padres y mi sobrino</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-laptop"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="https://instagram.com/a.xalyy?igshid=OGQ5ZDc2ODk2ZA==" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver perfil de instagram...
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Articulos -->
+    <section class="articulos justify-content-start">
+      <h2 class="seccion-titulo texto-negro">Artículos</h2>
+      <div class="card">
+        <div class="card-header">
+          Más recientes
+        </div>
+        <ul class="list-group list-group-flush">
+          <a href="https://www.comunidad.madrid/servicios/salud/bienestar-emocional-salud#:~:text=Las%20emociones%20cumplen%20la%20funci%C3%B3n,prepar%C3%A1ndonos%20e%20impuls%C3%A1ndonos%20para%20actuar." target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Bienestar emocional
+            </li>
+          </a>
+          <a href="https://www.thelemontreeeducation.com/la-emocionalidad-de-nuestro-entorno/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              La emocionalidad en nuestro entorno
+            </li>
+          </a>
+          <a href="https://finaesclapez.com/la-aamistad-y-su-valor-emocional/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              La amistad y su valor emocional
+            </li>
+          </a>
+          <a href="https://soymasfamilia.utpl.edu.ec/consultorio/aprender-a-manejar-las-emociones-en-familia/" target="_blank" rel="noopener noreferrer">
+            <li class="list-group-item">
+              Las emociones en la familia
+            </li>
+          </a>  
+        </ul>
+      </div>
+      <a href="#" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más artículos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-clara">
+      <h2 class="seccion-titulo">Fotografias</h2>
+      <h3 class="seccion-descripcion">Aquí podrás ver algunas fotografias con personas importantes para mi y moemntos significativos...</h3>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/xaly1.jpg" alt="primero">
+              <p class="testimonio-texto">Felicidad en una foto</p>
+              <div class="testimonio-info">
+                <p class="cliente">Jayden</p>
+                <p class="cargo">Mi sobrino y yo</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/xaly2.jpg" alt="segundo">
+              <p class="testimonio-texto">Todo el amor en una foto</p>
+              <div class="testimonio-info">
+                <p class="cliente">Mi papá</p>
+                <p class="cargo">Festejando el cumple de mi papá</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/xaly3.jpg" alt="tercero">
+              <p class="testimonio-texto">Felicidad atraves de una foto </p>
+              <div class="testimonio-info">
+                <p class="cliente">Mi mamá, Jayden mi sobrino y yo</p>
+                <p class="cargo"> Estamos en la plaza de toros</p>
+              </div>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <div class="container">
+                  <img class="testimonio-imagen rounded-circle" src="imagenes/xaly4.jpg" alt="cuarto">
+                  <p class="testimonio-texto">Amistad en una foto </p>
+                  <div class="testimonio-info">
+                    <p class="cliente">Sherlyn y yo</p>
+                    <p class="cargo"> Caminando depues de un partido</p>
+                  </div>
+            </div>
+          </div>
+       
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contacto" class="contacto seccion-oscura">
+      <div class="container">
+        <div class="container text-center rectangulo d-flex justify-content-evenly">
+          <div class="row">
+            <div class="col-12 col-md-4 seccion-titulo">
+              ¡Hablemos!
+            </div>
+            <div class="col-12 col-md-4 descripcion">
+             Contactame y te puedo compartir mas experiencias.
+            </div>
+            <div class="col-12 col-md-4">
+              <a href="rojasavilesalexiaxaly@gmail.com">
+                <button type="button">  
+                  Contacto
+                  <i class="bi bi-envelope-check-fill"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Pie de pagina (footer) -->
+    <footer class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <img class="footer-logo" src="imagenes/xaly5.jpg" alt="Logo del portafolio">
+      <p class="footer-texto text-center">Aprendo y vivo todos los dias.<br>Disfrutemos la vida.</p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-twitter"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="#" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-instagram"></i>
+        </a>
+        <a href="mailto:janedoe@micorreo.com" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor"> Adaptado por Alexia Xaly </div>
+      
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
